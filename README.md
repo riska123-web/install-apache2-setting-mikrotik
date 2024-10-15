@@ -1,13 +1,13 @@
 # install-apache2-setting-mikrotik
-Update the package index: Run sudo apt update to update the package manager. 
+Perbarui indeks paket: Jalankan sudo apt update untuk memperbarui manajer paket. 
  
-Install Apache2: Run sudo apt install apache2 to install Apache2. When prompted to confirm, type y and press Enter. 
+Instal Apache2: Jalankan Sudo apt install Apache2 untuk menginstal Apache2. Saat diminta untuk mengonfirmasi, ketik y dan tekan Enter. 
  
-Adjust the firewall settings: Run sudo ufw allow 'Apache' to allow traffic on port 80. 
+Sesuaikan pengaturan firewall: Jalankan sudo ufw izinkan 'Apache' untuk mengizinkan lalu lintas pada port 80. 
  
-Check the web server: Run sudo systemctl status apache2 to check the status of Apache2. 
+Periksa server web: Jalankan Sudo systemctl status Apache2 untuk memeriksa status Apache2. 
  
-You can also start the Apache service with sudo systemctl start apache2. To enable Apache to run at system startup, you can use a different command. 
+Anda juga dapat memulai layanan Apache dengan Sudo systemctl start Apache2. Untuk mengaktifkan Apache agar berjalan saat startup sistem, Anda dapat menggunakan perintah lain. 
  
-Apache2 is the current release of the Apache HTTP Server, which is a web server that's commonly used on Linux systems. It's often used as part of the LAMP configuration. 
+Apache2 adalah rilis terbaru dari Apache HTTP Server, yang merupakan server web yang umum digunakan pada sistem Linux. Ini sering digunakan sebagai bagian dari konfigurasi LAMP.
  
